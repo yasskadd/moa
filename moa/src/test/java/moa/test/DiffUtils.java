@@ -216,6 +216,7 @@ public class DiffUtils {
      * @param delta	the 0-based delta index
      * @return		the line number, -1 if failed to determine
      */
+    
     public int deltaToLine(int delta, boolean start) {
       int	result;
 
